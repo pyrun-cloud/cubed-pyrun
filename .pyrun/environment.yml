@@ -1,0 +1,14 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipykernel
+  - ipywidgets
+  - git
+  - cubed
+  - s3fs
+  - rich
+  - pip
+  - pip:
+      - lithops[aws]
